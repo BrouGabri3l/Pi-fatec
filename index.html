@@ -9,7 +9,7 @@
   </head>
   <body>
     <header class="flex space-between align-center">
-      <img src="src/img/Logo.svg" width="48px" height="48px" alt="" />
+      <img src="src/img/Logo.svg" width="56px" height="56px" alt="" />
       <ul class="flex">
         <li><a href="">Início</a></li>
         <li><a href="">Nossos Planos</a></li>
@@ -17,7 +17,52 @@
         <li><a href="">Contato</a></li>
       </ul>
     </header>
-    <main></main>
+    <main>
+      <section class="relative">
+        <img src="src/img/background.jpg" width="100%" height="500px" alt="" />
+        <div class="top-left w-75">
+          <h2 style="text-transform: uppercase; color: #a5e6a5">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+          </h2>
+        </div>
+      </section>
+      <section class="card align-center center flex column">
+        <h3>Título</h3>
+        <p>
+          Mussum Ipsum, cacilds vidis litro abertis. Mauris nec dolor in eros
+          commodo tempor.
+        </p>
+        <button>Clique aqui</button>
+      </section>
+      <section class="form center">
+        <h2 style="color: #94215a">Faça um orçamento conosco:</h2>
+        <form action="" class="flex column">
+          <label for="email">Email:</label>
+          <input
+            placeholder="Digite seu e-mail"
+            type="email"
+            id="email"
+            name="email"
+          />
+          <label for="email">Assunto: </label>
+          <input
+            placeholder="Digite o assunto da mensagem"
+            type="text"
+            id="subject"
+            name="subject"
+          />
+          <label for="email">Mensagem: </label>
+          <textarea
+            placeholder="Digite a sua mensagem"
+            name="text"
+            id="text"
+            cols="30"
+            rows="10"
+          ></textarea>
+          <button>Enviar</button>
+        </form>
+      </section>
+    </main>
     <footer></footer>
   </body>
 </html>
