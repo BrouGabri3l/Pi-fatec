@@ -64,10 +64,14 @@ input,
 textarea {
   border: none;
   border-radius: 2px;
-  color: #494a4a;
+  color: #494a4a; 
   font-size: 14px;
   padding: 1em;
   background-color: #aeb0b0;
+}
+input:focus,
+textarea:focus {
+  outline: 1px solid #94215a;
 }
 ::placeholder {
   color: #466146;
