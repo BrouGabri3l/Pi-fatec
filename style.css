@@ -117,3 +117,7 @@ textarea:focus {
   margin: 1em auto;
   width: 50%;
 }
+.flex-item-card{
+  display:flex;
+  flex-direction:column;
+}
