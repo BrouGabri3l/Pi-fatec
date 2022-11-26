@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer components {
+  .btn {
+    @apply rounded-md
+text-base shadow-xl px-3 py-2
+font-bold tracking-wider
+rounded-md
+text-base shadow-xl px-3 py-2
+font-bold tracking-wider hover:-translate-y-1 transform transition;
+  }
+  label {
+    @apply text-gradient-900 uppercase font-bold text-base py-1;
+  }
+  input,
+  textarea {
+    @apply bg-secondary-900 p-2 text-complementary-700 placeholder-white rounded-sm;
+  }
+}
